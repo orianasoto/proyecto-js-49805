@@ -57,25 +57,3 @@ function obtenerTareasDesdeLocalStorage() {
 function guardarTareasEnLocalStorage(tareas) {
   localStorage.setItem("tareas", JSON.stringify(tareas));
 }
-
-/*function filtrarTareas(filtro) {
-  const tareas = obtenerTareasDesdeLocalStorage() || [];
-  let tareasFiltradas = [];
-
-  switch (filtro) {
-    case 'pendientes':
-      tareasFiltradas = tareas.filter(tarea => !tarea.completada);
-      break;
-    case 'completadas':
-      tareasFiltradas = tareas.filter(tarea => tarea.completada);
-      break;
-    default:
-      tareasFiltradas = tareas;
-  }
-
-  mostrarTareasEnLista(tareasFiltradas);
-}
-
-function mostrarTareasEnLista(tareas) {
-  const listaTareas = document.getElementById("listaTareas");
-  listaTareas.innerHTML = ""; */
