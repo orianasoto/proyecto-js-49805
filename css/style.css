@@ -5,7 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 180vh;
+  height: 220vh;
 }
 
 .container {
@@ -36,4 +36,6 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+
+  
 }

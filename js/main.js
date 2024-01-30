@@ -1,4 +1,3 @@
-
 // Lista de tareas
 let tareas = [];
 
@@ -57,3 +56,16 @@ function obtenerTareasDesdeLocalStorage() {
 function guardarTareasEnLocalStorage(tareas) {
   localStorage.setItem("tareas", JSON.stringify(tareas));
 }
+fetch("data/data.json")
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.log(ErrorSolicitud ,$,{error,message}));
+
+window.onload = function() {
+  var elevator = new Elevator({
+    element: document.querySelector('.elevator-button'),
+    duration: 1000 
+  });
+}
+
+
